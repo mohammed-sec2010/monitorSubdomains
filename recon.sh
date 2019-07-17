@@ -31,7 +31,7 @@ fi
 }
 
 detectSub(){
-	subfinder -d $1 -t 50 -b -w wordlistPath/names.txt $1 -nW --silent -o "$subResultPath/$1/`date +"%Y-%m-%d"`.txt";
+	subfinder -d $1 -t 50 -b -w $wordlistPath/names.txt $1 -nW --silent -o "$subResultPath/$1/`date +"%Y-%m-%d"`.txt";
 	#cat test.txt > $subResultPath/$1/`date +"%Y-%m-%d"`.txt;
 }
 detectSubs(){
