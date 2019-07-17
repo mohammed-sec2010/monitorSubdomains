@@ -15,7 +15,7 @@ done
 
 workSpace="workSpace"
 subResultPath="$workSpace/subResultPath"
-wordlistPath="$workSpace/wordlistPath"
+wordlistPath="./wordlistPath"
 checkTar(){
 	if [[ $# -eq 0 ]]; then
 		echo -e "pleaser enter the target"
